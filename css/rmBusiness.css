@@ -6,7 +6,7 @@ gap: 0.875rem;
     padding-left: 25px;
     margin-bottom: 18px;
 }
-p,li:not(.menu_navigation){
+p,li:not(.menu_navigation li){
     font-size: 1.125rem;
     line-height: 1.35rem;
     font-family: PTSansRegular;
@@ -16,7 +16,7 @@ p,li:not(.menu_navigation){
     flex-direction: column;
     gap: 1.5rem;
 }
-p{
+p:not(.menu_navigation p){
     margin: 0 0 24px;
 }
 .main_title{
