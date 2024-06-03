@@ -1,4 +1,6 @@
-.wrapper1,.wrapper3{
+
+@media screen and (max-width:992px) {
+    .wrapper1,.wrapper3{
 	width: 100%;
 	height: 100%;
 overflow-x: scroll;
@@ -47,4 +49,5 @@ overflow: auto;}
 }
 .wrapper3{
 	margin-bottom: 21px;
+}
 }
