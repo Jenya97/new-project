@@ -19,15 +19,29 @@
           <div class="menu_part">
             <nav>
               <ul class="menu_navigation">
-                <li>
-                  <a href="" class="menu_item"
+                <li class="dropdown">
+                  <a href="#" class="menu_item dropdown-toggle"
                     ><img src="../assets/svg/company.svg" alt="" />КОМПАНИЯ</a
                   >
+                   <div class="dropdown-content">
+                            <a href="#"  class="menu_item">КОМПАНИЯ</a>
+                            <a href="#"  class="menu_item">ПОЛИТИКА КАЧЕСТВА</a>
+                            <a href="#"  class="menu_item">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                            <a href="#"  class="menu_item">КАРЬЕРА</a>
+                            <a href="#"  class="menu_item">СТУДЕНТАМ</a>
+                        </div>
                 </li>
-                <li>
-                  <a href="" class="menu_item"
+                <li class="dropdown">
+                  <a href="#" class="menu_item dropdown-toggle"
                     ><img src="../assets/svg/info.svg" alt="" />ИНФОРМАЦИЯ</a
                   >
+                    <div class="dropdown-content">
+                            <a href="#" class="menu_item">ПРАВОВАЯ ИНФОРМАЦИЯ</a>
+                            <a href="#" class="menu_item">НОРМЫ РАСХОДА ГСМ</a>
+                            <a href="#" class="menu_item">МОТОРНЫЕ МАСЛА И СПЕЦИАЛЬНЫЕ ЖИДКОСТИ</a>
+                            <a href="#" class="menu_item">СОВЕТЫ ПО ОБСЛУЖИВАНИЮ И УХОДУ ЗА ТЕХНИКОЙ АО "РМ"</a>
+                            <a href="#" class="menu_item">ПОЯСНЕНИЯ ПО УПЛАТЕ УТИЛИЗАЦИОННОГО СБОРА</a>
+                        </div>
                 </li>
                 <li>
                   <a href="" class="menu_item"
@@ -35,10 +49,14 @@
                     СЕРВИС</a
                   >
                 </li>
-                <li>
-                  <a href="" class="menu_item"
+                <li class="dropdown">
+                  <a href="#" class="menu_item dropdown-toggle"
                     ><img src="../assets/svg/buyer.svg" alt="" />ПОКУПАТЕЛЯМ</a
                   >
+                     <div class="dropdown-content">
+                            <a href="#" class="menu_item">РАССРОЧКА И КРЕДИТ</a>
+                            <a href="#" class="menu_item">RM БИЗНЕС</a>
+                        </div>
                 </li>
                 <li>
                   <a href="" class="menu_item"
@@ -59,7 +77,7 @@
         </div>
         <div class="mobile_menu">
           <div class="logo_parent">
-            <a href="/"><img src="../assets/svg/logo.svg" alt="" /></a>
+            <a href="/"><img src="./assets/svg/mobileLogo.svg" alt="" /></a>
           </div>
               <div class="mobile_menu-container">
                   <div class="contact_info">
@@ -79,15 +97,29 @@
         </div>
           <div class="menu" id="menu">
             <ul>
-                <li>
-                  <a href="" class="mob_menu_item"
+                <li class="dropdown">
+                  <a href="" class="mob_menu_item dropdown-toggle"
                     ><img src="../assets/svg/company.svg" alt="" />КОМПАНИЯ</a
                   >
+                      <div class="dropdown-content">
+                            <a href="#"  class="mob_menu_item">КОМПАНИЯ</a>
+                            <a href="#"  class="mob_menu_item">ПОЛИТИКА КАЧЕСТВА</a>
+                            <a href="#"  class="mob_menu_item">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</a>
+                            <a href="#"  class="mob_menu_item">КАРЬЕРА</a>
+                            <a href="#"  class="mob_menu_item">СТУДЕНТАМ</a>
+                        </div>
                 </li>
-                <li>
-                  <a href="" class="mob_menu_item"
+                <li class="dropdown">
+                  <a href="" class="mob_menu_item dropdown-toggle"
                     ><img src="../assets/svg/info.svg" alt="" />ИНФОРМАЦИЯ</a
                   >
+                    <div class="dropdown-content">
+                            <a href="#" class="mob_menu_item">ПРАВОВАЯ ИНФОРМАЦИЯ</a>
+                            <a href="#" class="mob_menu_item">НОРМЫ РАСХОДА ГСМ</a>
+                            <a href="#" class="mob_menu_item">МОТОРНЫЕ МАСЛА И СПЕЦИАЛЬНЫЕ ЖИДКОСТИ</a>
+                            <a href="#" class="mob_menu_item">СОВЕТЫ ПО ОБСЛУЖИВАНИЮ И УХОДУ ЗА ТЕХНИКОЙ АО "РМ"</a>
+                            <a href="#" class="mob_menu_item">ПОЯСНЕНИЯ ПО УПЛАТЕ УТИЛИЗАЦИОННОГО СБОРА</a>
+                        </div>
                 </li>
                 <li>
                   <a href="" class="mob_menu_item"
@@ -95,16 +127,14 @@
                     СЕРВИС</a
                   >
                 </li>
-                <li>
-                  <a href="" class="mob_menu_item"
+                <li class="dropdown">
+                  <a href="" class="mob_menu_item dropdown-toggle"
                     ><img src="../assets/svg/buyer.svg" alt="" />ПОКУПАТЕЛЯМ</a
                   >
-                </li>
-                <li class="underline ">
-                  <a href="" class="mob_menu_item">РАССРОЧКА И КРЕДИТ</a>
-                </li>
-                <li class="">
-                  <a href="" class="mob_menu_item">RM БИЗНЕС</a>
+                   <div class="dropdown-content">
+                            <a href="#" class="mob_menu_item">РАССРОЧКА И КРЕДИТ</a>
+                            <a href="#" class="mob_menu_item">RM БИЗНЕС</a>
+                        </div>
                 </li>
                   <li>
                   <a href="" class="mob_menu_item"
@@ -301,9 +331,9 @@
        </div>
      </section>
        <footer>
-       <section class="container">
+       <section >
          <div class="footer_content">
-          <div class="footer_logo_text_block">
+          <div class="footer_logo_text_block container">
              <img src="../assets/svg/footer.svg" alt="">
            <div class="footer_text_content">
              <p class="footer_text">Вся представленная на сайте информация, касающаяся техники RM и сервисного обслуживания, носит информационный характер и не
@@ -321,6 +351,7 @@
          </div>
        </section>
      </footer>
+     <script src="./js/dropdown.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/hamburger.js"></script>
   </body>
